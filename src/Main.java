@@ -10,5 +10,13 @@ public class Main {
         boss.setDamage(50);
 
         boss.printInfo();
+
+        Weapon bow = new Weapon(WeaponType.BOW, "BOW");
+
+        Skeleton skeleton1 = new Skeleton("Skeleton", 50, 100, bow, 20);
+        Skeleton skeleton2 = new Skeleton("Skeleton", 70, 120, bow, 15);
+
+        skeleton1.printInfo();
+        skeleton2.printInfo();
     }
 }
