@@ -18,5 +18,6 @@ public class Main {
 
         skeleton1.printInfo();
         skeleton2.printInfo();
+
     }
 }
