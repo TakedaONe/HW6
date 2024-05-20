@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
         Weapon sword = new Weapon(WeaponType.SWORD, "BIGSWORD");
 
