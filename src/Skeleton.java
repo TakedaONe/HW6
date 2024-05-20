@@ -19,5 +19,4 @@ public class Skeleton extends Boss{
         super.printInfo();
         System.out.println("Arrows: " + arrows);
     }
-
 }
